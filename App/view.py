@@ -125,10 +125,11 @@ while True:
         print("\nInicializando....")
         # cont es el controlador que se usará de acá en adelante
         cont = controller.init()
-
+        
     elif int(inputs[0]) == 2:
         executiontime = timeit.timeit(optionTwo, number=1)
         print("Tiempo de ejecución: " + str(executiontime))
+        
 
     elif int(inputs[0]) == 3:
         executiontime = timeit.timeit(optionThree, number=1)
